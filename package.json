@@ -1,0 +1,15 @@
+{
+    "name": "jdbc",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "stas",
+    "dependencies": {
+        "request": "^2.81",
+        "elasticsearch": "^13.3",
+        "async": "^2.1",
+        "express": "^4.14",
+        "body-parser": "^1.15",
+        "fs": "0.0.1-security",
+        "jdbc": "^0.4"
+    }
+}
