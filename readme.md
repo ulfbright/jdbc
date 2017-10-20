@@ -1,6 +1,8 @@
 # JDBC API
 
-Jarhead (JDBC API) consists of an individual POST route for each type of database connection (Oracle, Teradata, etc.), listed below. A query to the API returns a multidimensional array of objects as a response. 
+An API for querying JDBC connected databases. Currently supports Oracle and Teradata.
+
+Consists of an individual POST route for each type of database connection (Oracle, Teradata, etc.), listed below. A query to the API returns a multidimensional array of objects as a response.
 
 ***This implementation relies on a global installation of the oracledb NPM module: https://github.com/oracle/node-oracledb***
 
